@@ -1,0 +1,95 @@
+body {
+    background-color: #443C75;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/**
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+.heading {
+    background-color: none !important;
+    text-align: center;
+    color: #fff;
+     text-shadow: 1px 1px #594f93;
+     
+}
+h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#texty h3 {
+    font-weight: bold;
+}
+
+#texty {
+    color: #fff;
+    font-weight: bold;
+}
+
+#content1 {
+ background: url("brain-circuits.svg") no-repeat;
+ background-position :right;
+}
+
+input#wisdom {
+    padding: 8px;
+    font-size: 1em;
+    width: 400px;
+    color: #999;
+}
+#conversation {
+    background-color: #FC9870;
+    overflow-y: scroll;
+}
+
+#ai {
+    position: absolute;
+    width: 100%;
+    opacity: 0.4;
+}
+
+input::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+p.userRequest, p.lexResponse {
+    margin: 8px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+    min-width: 50%;
+    max-width: 85%;
+}
+p.userRequest {
+    text-align: left;
+    float: left;
+    background-color: #443C75;
+    color: #fff;
+}
+
+p.lexResponse {
+    text-align: right;
+    float: right;
+    background-color: #3DA697;
+    color: #fff;
+}
+
+
+p.lexError {
+    margin: 4px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    text-align: right;
+    min-width: 50%;
+    max-width: 85%;
+    float: right;
+    background-color: #f7812c;
+}

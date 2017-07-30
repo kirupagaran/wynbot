@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wyndham Virtual Assistant - The BotMan</title>
+    
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="cover.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://use.fontawesome.com/9bd1cd1411.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Raleway|Roboto" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+       <div id="content1">
+       <div class="heading">
+          <h1 class="masthead-brand"><i class="fa fa-bolt" aria-hidden="true"></i>
+ WynBot <i class="fa fa-bolt" aria-hidden="true"></i>
+</h1>
+                   <h5> Wyndham's Virtual Assistant </h5>
+      </div>
+    
+      <div class="row marketing" style="margin: 40px;">
+        <div class="col-lg-6">
+    <div id="conversation" style="width: 100%; min-width:222px; height: 400px; padding: 4px; overflow: scroll-y"></div>
+    <form id="chatform" style="width: 100%; min-width:222px; " onsubmit="return pushChat();">
+        <input type="text" id="wisdom" style="padding:6px; width:100%; height:55px;" class="form-control" value="" placeholder="Get My next bin day">
+    </form>
+        </div>
+             <!-- <img id="ai" src="brain-circuits.svg" alt=""> -->
+
+         <div id="texty" class="col-lg-6">
+             <h3 >
+                 WynBot can be extended to do all functionalities of Wyndham website on top of a highly personalised used interaction such as;
+             </h3>
+                  <li> Next bin collection date </li>
+                  <li> Book hard waste collection </li>
+                  <li> Can give you weather information</li>
+                  <li> Information about Wyndham</li>
+                  <li> Toilets</li>
+                  <li> Community Centre</li>
+                  <li> Smart Bins</li>
+                  <li> Free Wifi locations</li>
+                  <li> Child Care centres</li>
+                  <li> Kindergartens</li>
+                  <li> Libraries</li>
+                  <li> Playgrounds</li>
+                  <li> Dog off lead areas</li>
+         </div>
+         
+      </div>
+        </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+        <script src="scripts.js"></script>
+
+  </body>
+</html>
